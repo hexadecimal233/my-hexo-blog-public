@@ -23,7 +23,6 @@ rmf.switchDarkMode = function(){
     // handle some cases
     typeof utterancesTheme === 'function' && utterancesTheme()
     typeof FB === 'object' && window.loadFBComment()
-    window.DISQUS && document.getElementById('disqus_thread').children.length && setTimeout(() => window.disqusReset(), 200)
 };
 rmf.switchReadMode = function(){
     const $body = document.body
@@ -45,7 +44,12 @@ rmf.switchReadMode = function(){
 //复制选中文字
 rmf.copySelect = function(){
     document.execCommand('Copy',false,null);
-    //这里可以写点东西提示一下 已复制
+    Toastify({
+        text: "复制成功！",
+        className: "info",
+        duration: 3000,
+        close: true,
+    }).showToast();
 }
 
 //回到顶部
