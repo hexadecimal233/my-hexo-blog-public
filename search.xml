@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title>测试文章</title>
+      <link href="/posts/7a6a6b5a/"/>
+      <url>/posts/7a6a6b5a/</url>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Cloudflare DNS 托管+Github Pages HTTPS加密避坑</title>
       <link href="/posts/a72ef3/"/>
       <url>/posts/a72ef3/</url>
