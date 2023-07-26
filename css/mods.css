@@ -2,9 +2,13 @@
     font-size: 24px;
 }
 
+.card-widget, .recent-post-item, .archive, .page, #post {
+    backdrop-filter: blur(20px);
+}
+
 @font-face {
     font-family: AlibabaPuHuiTi-3-55-Regular;
-    src:url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaPuHuiTi-3/AlibabaPuHuiTi-3-55-Regular/AlibabaPuHuiTi-3-55-Regular.eot) format('embedded-opentype'),
+    src: url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaPuHuiTi-3/AlibabaPuHuiTi-3-55-Regular/AlibabaPuHuiTi-3-55-Regular.eot) format('embedded-opentype'),
     url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaPuHuiTi-3/AlibabaPuHuiTi-3-55-Regular/AlibabaPuHuiTi-3-55-Regular.otf) format('opentype'),
     url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaPuHuiTi-3/AlibabaPuHuiTi-3-55-Regular/AlibabaPuHuiTi-3-55-Regular.ttf) format('TrueType'),
     url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaPuHuiTi-3/AlibabaPuHuiTi-3-55-Regular/AlibabaPuHuiTi-3-55-Regular.woff) format('woff'),
@@ -12,7 +16,9 @@
 }
 
 @font-face {
-    font-family: "得意黑 斜体";font-weight: 400;src: url("//at.alicdn.com/wf/webfont/YP78DWsAJOkS/piLMsUqnW0yN.woff2") format("woff2"),
-url("//at.alicdn.com/wf/webfont/YP78DWsAJOkS/CVwmceixbacp.woff") format("woff");
+    font-family: "得意黑 斜体";
+    font-weight: 400;
+    src: url("//at.alicdn.com/wf/webfont/YP78DWsAJOkS/piLMsUqnW0yN.woff2") format("woff2"),
+    url("//at.alicdn.com/wf/webfont/YP78DWsAJOkS/CVwmceixbacp.woff") format("woff");
     font-display: swap;
 }
