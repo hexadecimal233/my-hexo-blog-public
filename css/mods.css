@@ -17,8 +17,7 @@
 
 @font-face {
     font-family: "得意黑 斜体";
-    font-weight: 400;
-    src: url("//at.alicdn.com/wf/webfont/YP78DWsAJOkS/piLMsUqnW0yN.woff2") format("woff2"),
-    url("//at.alicdn.com/wf/webfont/YP78DWsAJOkS/CVwmceixbacp.woff") format("woff");
+    font-weight: normal;
+    src: url("../fonts/SmileySans-Oblique.ttf.woff2") format("woff2");
     font-display: swap;
 }
