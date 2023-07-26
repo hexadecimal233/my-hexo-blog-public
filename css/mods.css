@@ -2,7 +2,7 @@
     font-size: 24px;
 }
 
-.card-widget, .recent-post-item, .archive, .page, #post {
+.card-widget, .recent-post-item, #archive, #page, #post {
     backdrop-filter: blur(20px);
 }
 
