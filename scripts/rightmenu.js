@@ -47,7 +47,7 @@ rmf.copySelect = function(){
     Toastify({
         text: "复制成功！",
         className: "info",
-        duration: 3000,
+        duration: 1500,
         close: true,
     }).showToast();
 }
@@ -57,9 +57,21 @@ rmf.scrollToTop = function(){
     btf.scrollToDest(0, 500);
 }
 
+rmf.firstTime = true;
+
 // 右键菜单事件
 if(! (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))){
     window.oncontextmenu = function(event){
+        if (event.ctrlKey) return true;
+        if (rmf.firstTime) {
+            Toastify({
+                text: "提示：按住Ctrl键可以显示原版菜单~",
+                className: "info",
+                duration: 1500,
+                close: true,
+            }).showToast();
+            rmf.firstTime = false;
+        }
         $('.rightMenu-group.hide').hide();
         //如果有文字选中，则显示 文字选中相关的菜单项
         if(document.getSelection().toString()){
