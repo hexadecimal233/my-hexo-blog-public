@@ -13,3 +13,9 @@ document.addEventListener("visibilitychange", function () {
         }, 2000);
     }
 });
+
+function updateBackgroundImage() {
+    const imageUrl = 'https://t.mwm.moe/moe';//图片URL
+    const timestamp = Date.now();
+    $('page-header').style.backgroundImage = `url('${imageUrl}?${timestamp}')`;
+}
