@@ -21,3 +21,22 @@
     src: url("../fonts/SmileySans-Oblique.ttf.woff2") format("woff2");
     font-display: swap;
 }
+
+#card-info-btn {
+    border-radius: 15px;
+    transition: ease-in-out 0.3s;
+    box-shadow: 0 12px 12px -9px rgba(0,0,0,0.29);
+}
+
+#card-info-btn:hover {
+    box-shadow: 0 12px 12px -9px rgba(39, 196, 134, 0.29);
+}
+
+.sidebar-item {
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+}
+
+.sidebar-item:hover {
+    background-color: hsla(0,0%,50%,.15);
+}
