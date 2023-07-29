@@ -40,3 +40,15 @@
 .sidebar-item:hover {
     background-color: hsla(0,0%,50%,.15);
 }
+
+body {
+    cursor: url("../img/cursor/arrow.gif"), default!important;
+}
+
+a, i, button, img, span {
+    cursor: url("../img/cursor/link.gif"), pointer!important;
+}
+
+textarea {
+    cursor: url("../img/cursor/beam.gif"), text;
+}
