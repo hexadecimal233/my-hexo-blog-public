@@ -1,3 +1,5 @@
+/* 字体 */
+
 .iconfont {
     font-size: 24px;
 }
@@ -22,10 +24,12 @@
     font-display: swap;
 }
 
+/* 美化，模糊 */
+
 #card-info-btn {
     border-radius: 15px;
     transition: ease-in-out 0.3s;
-    box-shadow: 0 12px 12px -9px rgba(0,0,0,0.29);
+    box-shadow: 0 12px 12px -9px rgba(0, 0, 0, 0.29);
 }
 
 #card-info-btn:hover {
@@ -38,15 +42,21 @@
 }
 
 .sidebar-item:hover {
-    background-color: hsla(0,0%,50%,.15);
+    background-color: hsla(0, 0%, 50%, .15);
 }
 
+#nav {
+    backdrop-filter: blur(5px);
+}
+
+/* 鼠标指针（https://www.bilibili.com/video/BV1h8411U72E） */
+
 body {
-    cursor: url("../img/cursor/arrow.gif"), default!important;
+    cursor: url("../img/cursor/arrow.gif"), default !important;
 }
 
 a, i, button, img, span {
-    cursor: url("../img/cursor/link.gif"), pointer!important;
+    cursor: url("../img/cursor/link.gif"), pointer !important;
 }
 
 textarea {
