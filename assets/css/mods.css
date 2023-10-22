@@ -17,12 +17,14 @@
     url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaPuHuiTi-3/AlibabaPuHuiTi-3-55-Regular/AlibabaPuHuiTi-3-55-Regular.woff2) format('woff2');
 }
 
+/*
 @font-face {
     font-family: "得意黑 斜体";
     font-weight: normal;
     src: url("../fonts/SmileySans-Oblique.ttf.woff2") format("woff2");
     font-display: swap;
 }
+*/
 
 /* 美化，模糊 */
 
