@@ -65,7 +65,7 @@ if(! (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mob
         if (event.ctrlKey) return true;
         if (rmf.firstTime) {
             Toastify({
-                text: "提示：按住Ctrl键可以显示原版菜单~",
+                text: "提示：按住Ctrl键可以显示原生菜单~",
                 className: "info",
                 duration: 1500,
                 close: true,
