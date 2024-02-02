@@ -1,3 +1,3 @@
-var posts=["2024/02/02/hello-world/"];function toRandomPost(){
+var posts=["posts/5ec9.html","posts/a72e.html","posts/b0f3.html","posts/7a6a.html","posts/73aa.html","posts/201b.html"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
