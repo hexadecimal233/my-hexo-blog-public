@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://me.onlyra1n.top/essay/index.html</loc>
+    <loc>https://me.onlyra1n.top/categories/index.html</loc>
     
     <lastmod>2024-04-21</lastmod>
     
@@ -11,7 +11,16 @@
   </url>
   
   <url>
-    <loc>https://me.onlyra1n.top/link/index.html</loc>
+    <loc>https://me.onlyra1n.top/comments/index.html</loc>
+    
+    <lastmod>2024-04-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://me.onlyra1n.top/links/index.html</loc>
     
     <lastmod>2024-04-21</lastmod>
     
@@ -29,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://me.onlyra1n.top/categories/index.html</loc>
+    <loc>https://me.onlyra1n.top/posts/5ec9a3cb/</loc>
     
     <lastmod>2024-04-21</lastmod>
     
@@ -38,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://me.onlyra1n.top/posts/5ec9.html</loc>
+    <loc>https://me.onlyra1n.top/posts/a72ef3/</loc>
     
     <lastmod>2024-04-21</lastmod>
     
@@ -47,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://me.onlyra1n.top/posts/a72e.html</loc>
+    <loc>https://me.onlyra1n.top/posts/7a6a6b5a/</loc>
     
     <lastmod>2024-04-21</lastmod>
     
@@ -56,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://me.onlyra1n.top/posts/b0f3.html</loc>
+    <loc>https://me.onlyra1n.top/posts/73aa7dbe/</loc>
     
     <lastmod>2024-04-21</lastmod>
     
@@ -65,34 +74,7 @@
   </url>
   
   <url>
-    <loc>https://me.onlyra1n.top/posts/7a6a.html</loc>
-    
-    <lastmod>2024-04-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://me.onlyra1n.top/posts/73aa.html</loc>
-    
-    <lastmod>2024-04-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://me.onlyra1n.top/posts/201b.html</loc>
-    
-    <lastmod>2024-04-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://me.onlyra1n.top/about/index.html</loc>
+    <loc>https://me.onlyra1n.top/posts/201ba54f/</loc>
     
     <lastmod>2024-04-21</lastmod>
     
