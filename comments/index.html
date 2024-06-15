@@ -59,7 +59,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-06-15 17:27:04',
+  postUpdate: '2024-06-15 23:39:06',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -551,53 +551,4 @@ document.addEventListener('pjax:error', e => {
   else if (epage === cpage){
     butterfly_clock_anzhiyu_injector_config();
   }
-  </script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.js"></script><!-- hexo injector body_end end -->
-      <div id="sakana" style="position:fixed;right:0;bottom:0px;"></div>
-      <script async onload='initSakanaWidget({"character":"takina","enable":true,"enable_mobile":false,"size":200,"autoFit":false,"bottom":"0px","controls":true,"stroke":{"color":"#b4b4b4","width":10},"threshold":0.1,"rotate":0,"customCharacters":[]})' src="https://cdn.jsdelivr.net/npm/sakana-widget@2.3.0/lib/sakana.min.js"></script>
-      <script>
-      function log(msg) {
-        console.log("[hexo-sakana] " + msg);
-      }
-
-      function initSakanaWidget(config) {
-        if (
-          !config.enable_mobile &&
-          window.navigator.userAgent.match(
-            /(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i
-          )
-        ) {
-          log(
-            '检测为移动端，且配置中未开启在移动端启用组件，hexo-sakana 已禁用'
-          );
-          return;
-        }
-        for (character of config.customCharacters) {
-          if (!["takina", "chisato"].includes(character.base)) {
-            log(`无效基础角色 ${character.base}，取消注册`);
-            continue;
-          }
-          if (character.name === "") {
-            log("名称为空，取消注册");
-            continue;
-          }
-          const originCharacter = SakanaWidget.getCharacter(character.base);
-          originCharacter.initialState = {
-            ...originCharacter.initialState,
-            ...character,
-          };
-          originCharacter.image = !character.image ? originCharacter.image : character.image
-          SakanaWidget.registerCharacter(character.name, originCharacter);
-          log(`注册自定义角色：${character.name}`)
-        }
-        new SakanaWidget({
-          character: config.character,
-          size: config.size,
-          autoFit: config.autoFit,
-          controls: config.controls,
-          stroke: config.stroke,
-          threshold: config.threshold,
-          rotate: config.rotate,
-        }).mount("#sakana");
-      }
-  </script>
-    </body></html>
+  </script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.js"></script><!-- hexo injector body_end end --></body></html>
